@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.text({limit: '5mb'}));
 app.use(bodyParser.urlencoded({limit: '5mb', extended: true}));
            
-app.post('/upload', function(req, res){
+app.post('/go', function(req, res){
   var text = String(req.body);
   const order = parseInt(req.query.order) || 1;
 
