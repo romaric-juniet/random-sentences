@@ -1,13 +1,12 @@
 {
   "name": "any-random-sentences",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generate 10 random sentences from an input text",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "",
+  "author": "Romaric Juniet",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.0",
